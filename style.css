@@ -52,37 +52,38 @@ nav li{
     font-weight: bold;
 }
 
+
 .panel{
     width:100%;
-    padding-top: 70px;
+    padding-top: 5%;
+    position: absolute;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 .panel ul{
-    width:36vw;
+    width:45vw;
     list-style-type: none;
 }
 
 .panel h1{
-    width: 240px;
-    font-size: 20px;
+    font-size: 20pt;
     font-weight: normal;
-    margin:0;
 }
 
 .panel li {
-	margin: 0;
 	padding: 30px 0 0 70px;
-	background-position: 7% 100%;
-    background-size: 35px;
     position: relative;
 }
 
 #robert_photo{
-    height: 400px;
-    width:auto;
+    height: 300px;
+    margin-top: 60px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0 0 40px -5px rgb(0, 0, 0); 
 }
 
 
