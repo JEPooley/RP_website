@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Robert Pooley, Maths Tutor in Ottery st Mary">
+  <meta name="keywords" content="Tutoring, Tutor, Tuition, Maths, Ottery, Devon, Coach">
+  <meta name="author" content="Josh Pooley">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Domine' rel='stylesheet'>
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="Icon/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="Icon/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="Icon/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="Icon/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="Icon/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="Icon/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="Icon/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="Icon/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="Icon/favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="Icon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="Icon/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="Icon/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="Icon/favicon-128.png" sizes="128x128" />
+  <meta name="application-name" content="&nbsp;"/>
+  <meta name="msapplication-TileColor" content="#FFFFFF" />
+  <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+  <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+  <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+  <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+  <title>Robert Pooley Maths Coach</title>
+</head>
+<body onresize="resizeCanvas()">
+
+    <nav>
+        <a class="nav_logo" href="index.html">
+            <img src="Images/logo_2.svg" alt="Robert Pooley Maths Coach"> 
+            <div class="logo_text">Robert Pooley <div>MATHS COACH</div></div>
+        </a>
+        <button class="hamburger" onclick="openMenu()"><i class="fa fa-bars"></i></button>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a class="chosen" href="tuition.html">TUITION</a></li>
+            <li><a href="fees.html">FEES</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+    
+    <div class="hamburger_menu" style="display: none;">
+        <a href="index.html">HOME</a>
+        <a href="tuition.html">TUITION</a>
+        <a href="fees.html">FEES</a>
+        <a href="contact.html">CONTACT</a>
+    </div>
+
+    <canvas>Your browser does not support canvas elements</canvas>
+
+    <div class="page_flex">
+        <div class="panel">
+                <img id="robert_photo" src="Images/Robert.jpg" alt="Photo of Robert">
+            <div>
+                <h1>Tuition</h1>
+                <section >
+                    <div class="fee_box">
+                        <h3>How, Where, Why</h3>
+                        <p>
+                            All teaching is on a one-to-one basis - this is the very best way to tailor a student's 
+                            learning to their individual needs.
+                        </p>
+                        <p>
+                            Lessons are conducted at my house, in a quiet and comfortable environment, 
+                            away from the habitual distractions of home and school.
+                        </p>
+                        <p>
+                            All lessons are of one hour duration, probably the optimal period for any kind of study session. 
+                            Less than one hour is often not long enough to discuss and develop difficult concepts. 
+                            On the other hand, a break is advisable if continuing beyond one hour.
+                        </p>
+                        <p>
+                            Minimal use is made of internet and computer technology. 
+                            Lessons are usually a combination of work at the desk with pencil and paper, 
+                            combined with more expansive explanations from the whiteboard. 
+                            There are very reasonably priced coursebooks and revision books available in most maths syllabuses, 
+                            and these are used wherever possible as a basis for tutorial sessions.
+                        </p>
+                    </div>
+                    <div class="fee_box">
+                        <h3>Homework</h3>
+                        <p>
+                            Homework is optional and problem sheets are sent by e-mail on a next-day basis if requested. 
+                            Students are never required to complete homework. Homework is considered to be a mixed blessing, 
+                            and can add to the already considerable burdens of a student's school life. 
+                            On the other hand, a little light homework can create a sense of continuity for a student between lessons, 
+                            which are very often a week apart. 
+                            Homework also gives me an excellent indication of how well a topic has actually been grasped. 
+                            If students have made an attempt at the homework, 
+                            they usually bring their script to the next lesson for discussion and review.
+                        </p>
+                    </div>
+                    <div class="fee_box">
+                        <h3>Syllabus</h3>
+                        <p>
+                            Maths coaching is offered across KS3, GCSE, IGCSE, A-Level, and Further Maths in all syllabuses, 
+                            and for all examination boards, usually AQA, Edexcel, or OCR. 
+                            University entrance and first year University work are a possibility, 
+                            but this would depend on the specific requirements of the student, at these more specialised levels.
+                        </p>
+                    </div>
+                    <div class="fee_box">
+                        <h3>Bookings</h3>
+                        <p>
+                            During weekdays in term, my regular hourly slots are 4-5pm, 5-6pm, and 6-7pm each day, 
+                            but lessons can be arranged any time outside these hours to suit. 
+                            I am also available Saturday mornings, with four possible hourly slots, 
+                            starting at 8am and running through to 12.00 noon. Outside of school terms, regular hours do not apply, 
+                            and lessons can be arranged any time as required.
+                        </p>
+                    </div>
+                    <div class="fee_box">
+                        <h3>Modes of Study</h3>
+                        <p>
+                            Preparation for exams is the express motive for most students taking maths coaching. 
+                            Of course, this will involve working on past papers together during lessons, 
+                            but, depending on the time available, 
+                            I find it is often useful to lay the foundation with a short course in the basics. 
+                            For instance, at GCSE, a couple of hours' formal study of, say, 
+                            fractions, can yield great benenfit, even when exams are imminent.
+                        </p>
+                        <p>
+                            Whilst last minute tutoring before an exam can be beneficial, 
+                            many students choose to take reqular hourly sessions each week in good time for their exams, 
+                            and often for the duration of their course work, which is 2-years for GCSE and A-level. 
+                            I can offer complete courses if desired, 
+                            or I am very happy to work on particular problems each week, for instance, 
+                            on something a student has not understood at school or college. 
+                            Learning maths is a challenge for everyone, and my philosphy is to be very flexible in my approach, and to work 
+                            with the agreement of the student at every step.
+                        </p>
+                    </div>
+                    <div class="fee_box">
+                        <h3>Exam Stress</h3>
+                        <p>
+                           Exam stress is a serious problem for a lot of students, and may be a growing problem in general.
+                           Exam stress can be ameliorated, at least to some extent, by improving a student's proficiency
+                           in the subject, along with a well rehearsed exam technique. Nevertheless, in order to maximise a student's talents, 
+                           it is also vital to foster a healthy sense of the context of exams within their overall development.
+                           
+                        </p>
+                    </div>
+                    <div class="fee_box">
+                        <h3>Introductory Session</h3>
+                        <p>
+                            If you are interested in taking maths tuition with me then I am pleased to offer 
+                            an initial, no-strings, one-hour taster session at half the regular price quoted. 
+                            This normally starts with a 20 minute discussion of the student's particular requirements, 
+                            and would usually include the student's parent or guardian. 
+                            There is then a short taster one-to-one session with the student to complete the hour. 
+                            Alternatively, I am happy to offer a free, no-strings, 1/2 hour consultation session.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <footer>
+            <div>
+                <p><i class="fa fa-phone-square"></i> 01404822333</p>
+                <p><i class="fa fa-envelope-square"></i>robertpooleymaths@gmail.com</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="rpcanvas.js"></script>
+    <script src="phonemenu.js"></script>
+</body>
+</html>

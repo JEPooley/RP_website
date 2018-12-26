@@ -8,13 +8,16 @@ var ctx = canvas.getContext('2d');
 function resizeCanvas(){
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
-    var p1 = new Parallelogram([0,0], window.innerHeight*0.95, window.innerWidth*0.2, 78, 15, 0.45);
-    p1.start = [-p1.xoffset, canvas.height+p1.yoffset];
-    var p2 = new Parallelogram([0,0], window.innerHeight*0.9, window.innerWidth*0.08, 78, 15, 0.26);
-    p2.start = [window.innerWidth*0.115, canvas.height+(1.1 * p2.yoffset)];
 
-    p1.draw();
-    p2.draw();
+    if (canvas.width > 900){
+        var avgLength = (canvas.width+canvas.height)/2;
+        var p1 = new Parallelogram([0,0], window.innerHeight*0.95, avgLength*0.3, 78, 15, 0.45);
+        p1.start = [-p1.xoffset, canvas.height+p1.yoffset];
+        var p2 = new Parallelogram([0,0], window.innerHeight*0.9, avgLength*0.15, 78, 20, 0.26);
+        p2.start = [avgLength*0.2, canvas.height+(1.1 * p2.yoffset)];
+        p1.draw();
+        p2.draw();
+    }
 }
 
 function Parallelogram(start, height, width, angle1Deg, angle2Deg, fadeHeight){
@@ -40,13 +43,14 @@ function Parallelogram(start, height, width, angle1Deg, angle2Deg, fadeHeight){
         ctx.closePath();
         ctx.fill();
     }   
-
 };
 
-var p1 = new Parallelogram([0,0], window.innerHeight*0.95, window.innerWidth*0.2, 78, 15, 0.45);
-p1.start = [-p1.xoffset, canvas.height+p1.yoffset];
-var p2 = new Parallelogram([0,0], window.innerHeight*0.9, window.innerWidth*0.08, 78, 15, 0.26);
-p2.start = [window.innerWidth*0.115, canvas.height+(1.1 * p2.yoffset)];
-
-p1.draw();
-p2.draw();
+if (canvas.width > 900){
+    var avgLength = (canvas.width+canvas.height)/2;
+    var p1 = new Parallelogram([0,0], window.innerHeight*0.95, avgLength*0.3, 78, 15, 0.45);
+    p1.start = [-p1.xoffset, canvas.height+p1.yoffset];
+    var p2 = new Parallelogram([0,0], window.innerHeight*0.9, avgLength*0.15, 78, 20, 0.26);
+    p2.start = [avgLength*0.2, canvas.height+(1.1 * p2.yoffset)];
+    p1.draw();
+    p2.draw();
+}
