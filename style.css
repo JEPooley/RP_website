@@ -10,6 +10,7 @@ html, body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: white;
+    overflow: hidden;
 }
 
 nav{
