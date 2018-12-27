@@ -10,6 +10,10 @@ html, body {
     background: -webkit-gradient(linear, left top, right bottom, from(#dd2d44), to(#b92883));
     background-repeat: no-repeat;
     background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     color: white;
 }
 
