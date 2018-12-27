@@ -9,7 +9,7 @@ html, body {
     background: -webkit-gradient(linear, left top, right bottom, from(#dd2d44), to(#b92883));
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: white;
+    color: black;
     overflow: hidden;
 }
 
