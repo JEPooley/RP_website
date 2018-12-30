@@ -4,7 +4,7 @@ html, body {
     min-height: calc(var(--vh, 1vh) * 100);
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #dd2d44;
+    background-color: #d12b5a;
     color: white;
 }
 
