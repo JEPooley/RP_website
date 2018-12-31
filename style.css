@@ -8,6 +8,12 @@ html, body {
     color: white;
 }
 
+#texture{
+    position: absolute;
+    top: 90px;
+    width: 80vw;
+}
+
 nav{
     background-color: rgba(255, 255, 255, 0.1);
     width:100%;
@@ -19,7 +25,19 @@ nav{
     z-index: 10;
 }
 
+@media only screen and (min-width: 600px) {
+    #texture{
+        top: 90px;
+        width: 60vw;
+    }
+}
+
 @media only screen and (min-width: 900px) {
+    #texture{
+        top: 90px;
+        width: 40vw;
+    }
+
     nav{
         background: none;
         position: static;
