@@ -209,10 +209,10 @@ button:focus {outline:0;}
 }
 
 .fee_box h3{
-    font-size: 13pt;
+    font-size: 13.5pt;
     font-family: 'Montserrat';
     margin-top: 5px;
-    text-decoration: underline;
+    font-weight: bold;
 }
 
 .fee_box{
@@ -232,6 +232,7 @@ button:focus {outline:0;}
     .panel{
         flex-direction: row;
         align-items: flex-start;
+        padding-top: 2vh;
     }
 
     .panel ul{
@@ -247,7 +248,7 @@ button:focus {outline:0;}
 
     .panel section{
         width:45vw;
-        margin-right: 10vw;
+        margin-right: 12vw;
         padding-inline-start: 40px;
         padding-bottom: 0;
     }
