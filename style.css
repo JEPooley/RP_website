@@ -223,6 +223,12 @@ button:focus {outline:0;}
     padding: 20px;
 }
 
+.fee_box_picture{
+    margin: 20px 0;
+    border-radius: 10px;
+    width: 100%;
+}
+
 .panel .fee_box p{
     width: 80vw;
     padding-inline-start: 0;
@@ -265,8 +271,9 @@ button:focus {outline:0;}
         display: none;
     }
 
-    .fee_box{
+    .fee_box, .fee_box_picture{
         width: 45vw;
+        padding: 20px;
     }
 
     .panel .fee_box p{
