@@ -255,7 +255,7 @@ button:focus {outline:0;}
     .panel section{
         width:45vw;
         margin-right: 12vw;
-        padding-inline-start: 40px;
+        margin-left: 40px;
         padding-bottom: 0;
     }
 
