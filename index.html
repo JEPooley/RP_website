@@ -56,21 +56,28 @@
         <a href="contact.html">CONTACT</a>
     </div>
 
-    <div class="page_flex">
+    <div class="page_flex" itemscope itemtype="http://schema.org/LocalBusiness" itemid="https://www.robertpooleymaths.co.uk">
         <div class="panel">
                 <img id="robert_photo" src="Images/at_desk.jpg" alt="Photo of Robert">
             <div>
-                <h1>Robert Pooley<br>Maths Tutor in Devon</h1>
+                <h1><span itemprop="name">Robert Pooley</span><br><span itemprop="description">Maths Tutor</span> in Devon</h1>
                 <section>
                     <ul class="fee_box"> 
 						<li><i class="rp-li fa fa-check-circle fa-2x"></i>I specialise in teaching Key Stage 3, GCSE, IGCSE, A-Level and 
                             University entrance coaching.
                             </li>
                         <li><i class="rp-li fa fa-check-circle fa-2x"></i>I am an experienced maths tutor, offering bespoke one-to-one lessons 
-                            at my home in Ottery St Mary, Devon.</li>                        
+                            at my home in 
+							<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+								<meta itemprop="streetAddress" content="Daisymount House, Exeter Road"/>
+								<span itemprop="addressLocality">Ottery St Mary</span>, 
+								<span itemprop="addressRegion">Devon</span>.
+								<meta itemprop="postalCode" content="EX11 1LE"/>
+								<meta itemprop="addressCountry" content="GB"/>
+							</span></li>                        
                         <li><i class="rp-li fa fa-check-circle fa-2x"></i>All teaching is in a relaxed and friendly home environment, 
                             with a dedicated tutorial room and a large whiteboard.</li>
-                        <li><i class="rp-li fa fa-check-circle fa-2x"></i>I have a masters degree in Mathematics, I am a member of the Tutors 
+                        <li><i class="rp-li fa fa-check-circle fa-2x"></i>I have a masters degree in <span itemprop="knowsAbout">Mathematics</span>, I am a member of the Tutors 
                             Association and I have full extended DBS accreditation.</li>
 						<li><i class="rp-li fa fa-check-circle fa-2x"></i>Convenient location for students from Ottery, West Hill, Whimple or Cranbrook.  
                         </li>							
@@ -83,10 +90,11 @@
 
         <footer>
             <div>
-                <p><i class="fa fa-phone-square"></i> 01404 822333</p>
-                <p><i class="fa fa-envelope-square"></i>robertpooleymaths@gmail.com</p>
+                <p><i class="fa fa-phone-square"></i><span itemprop="telephone">01404 822333</span></p>
+                <p><i class="fa fa-envelope-square"></i><span itemprop="email">robertpooleymaths@gmail.com</span></p>
             </div>
         </footer>
+		
     </div>
 
     <script src="phonemenu.js"></script>
