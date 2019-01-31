@@ -1,4 +1,4 @@
-
+"use strict";
 function openMenu(){
     var menuStatus = document.getElementsByClassName("hamburger_menu")[0];
     var icon = document.getElementsByClassName("hamburger")[0].getElementsByTagName("i")[0];
