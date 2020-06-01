@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Mathematics tutor in Ottery Saint Mary, Devon. Support for KS3, GCSE, IGCSE, A-Level and university entrance exams. Easy to reach from Exeter or Honiton.">
-  <meta name="author" content="Josh Pooley">
+  <meta name="description" content="Mathematics tutor in Ottery Saint Mary, Devon. Online support for KS3, GCSE, IGCSE, A-Level and university entrance exams.">
+  <meta name="author" content="Pooley" >
   <script type="application/ld+json">
   {
 	"@context":"https://schema.org/",
@@ -12,7 +12,7 @@
 	"@id":"https://www.robertpooleymaths.co.uk",
 	"url":"https://www.robertpooleymaths.co.uk",
 	"name":"Robert Pooley",
-	"description":"Maths Tutor in East Devon. Support for Key Stage 3, GCSE, IGCSE, A-Level and university entrance exams. Easy to reach from Exeter or Honiton via the A30, with plenty of parking space!",
+	"description":"Maths Tutor in East Devon. Online support for Key Stage 3, GCSE, IGCSE, A-Level and university entrance exams.",
 	"address":{
 		"@type":"PostalAddress",
 		"streetAddress":"Daisymount House, Exeter Road",
@@ -23,12 +23,8 @@
 	},
 	"image":[{
 		"@type":"ImageObject",
-		"contentUrl":"https://www.robertpooleymaths.co.uk/Images/at_desk.jpg",
-		"url":"https://www.robertpooleymaths.co.uk/Images/at_desk.jpg"
-		},{
-		"@type":"ImageObject",
-		"contentUrl":"https://www.robertpooleymaths.co.uk/Images/at_desk_fb.jpg",
-		"url":"https://www.robertpooleymaths.co.uk/Images/at_desk_fb.jpg"
+		"contentUrl":"https://www.robertpooleymaths.co.uk/Images/me_1.jpg",
+		"url":"https://www.robertpooleymaths.co.uk/Images/me_1.jpg"
 		}
 	],
 	"telephone":"01404 822333",
@@ -40,9 +36,9 @@
   <!--Meta data for og users, e.g. Facebook-->
   <meta property="og:title" content="Robert Pooley | Maths Tutor"/>
   <meta property="og:type" content="website"/>
-  <meta property="og:image" content="https://www.robertpooleymaths.co.uk/Images/at_desk_fb.jpg"/>
+  <meta property="og:image" content="https://www.robertpooleymaths.co.uk/Images/me_1.jpg"/>
   <meta property="og:url" content="https://www.robertpooleymaths.co.uk/"/>
-  <meta property="og:description" content="Mathematics tutor in Ottery St Mary, Devon. Support for KS3, GCSE, IGCSE, A-Level and university entrance exams. Easy to reach from Exeter or Honiton."/>
+  <meta property="og:description" content="Mathematics tutor in Ottery St Mary, Devon. Online support for KS3, GCSE, IGCSE, A-Level and university entrance exams."/>
 
   <link rel="canonical" href="https://www.robertpooleymaths.co.uk"/>
   <link rel="stylesheet" href="style.css">
@@ -73,14 +69,45 @@
   <meta name="theme-color" content="#ffffff" />
   <meta name="msvalidate.01" content="74A10B3892E4F2BABB3504952B0C2A45" />
   <title>Maths Tutor in Ottery, East Devon | Robert Pooley</title>
+  
+ <!--<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<--> 
+  <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=GBP" data-sdk-integration-source="button-factory"></script>
+	<script>
+  	paypal.Buttons({
+      style: {
+          shape: 'pill',
+          color: 'gold',
+          layout: 'vertical',
+          label: 'pay',
+          
+      },
+      createOrder: function(data, actions) {
+          return actions.order.create({
+              purchase_units: [{
+                  amount: {
+                      value: '1'
+                  }
+              }]
+          });
+      },
+      onApprove: function(data, actions) {
+          return actions.order.capture().then(function(details) {
+              alert('Transaction completed by ' + details.payer.name.given_name + '!');
+          });
+      }
+  	}).render('#paypal-button-container');
+	</script>
+<!--<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->	
+	
 </head>
 <body>
 
     <nav>
         <a class="nav_logo" href="/">
             <img src="Images/rpm_logo.svg" alt="Robert Pooley Maths Tutor"> 
-            <div class="logo_text">Robert Pooley <div>MATHS TUTOR</div></div>
+            <div class="logo_text">Robert Pooley <div>MATHS TUTOR</div></div> 
         </a>
+        <!--
         <button class="hamburger" onclick="openMenu()"><i class="fa fa-bars"></i></button>
         <ul>
             <li><a class="chosen" href="index.html">HOME</a></li>
@@ -88,49 +115,177 @@
             <li><a href="fees.html">FEES</a></li>
             <li><a href="contact.html">CONTACT</a></li>
         </ul>
+        -->
     </nav>
     
+    <!--
     <div class="hamburger_menu" style="display: none;">
         <a href="/">HOME</a>
         <a href="tuition.html">TUITION</a>
         <a href="fees.html">FEES</a>
         <a href="contact.html">CONTACT</a>
     </div>
-
+	-->
+	
     <div class="page_flex">
         <div class="panel">
 				<img id="robert_photo" src="Images/at_desk.jpg" alt="Photo: Robert at the desk">
             <div>
-                <h1>Robert Pooley<br>Maths Tutor in Devon</h1>
+                <h1 style="font-size:30px"> Maths Tutoring ...<br>... for GCSE and A-level</h1>
+
                 <section>
                     <div>
                         <ul class="fee_box"> 
-                            <li><i class="rp-li fa fa-check-circle fa-2x"></i>I specialise in teaching Key Stage 3, GCSE, IGCSE, A-Level.</li>
-                            <li><i class="rp-li fa fa-check-circle fa-2x"></i>I am an experienced maths tutor, <strong>now offering</strong> one-to-one online lessons.</li>                        
-                            <li><i class="rp-li fa fa-check-circle fa-2x"></i>I have a masters degree in Mathematics, I am a member of the <a href="https://thetutorsassociation.org.uk/" style="color:white">Tutors Association</a> and I have full extended DBS accreditation.</li>
-                        </ul>
+                            <li><i class="rp-li fa fa-check-circle fa-2x"></i>Enjoy the  convenience of <b>ONLINE</b> tuition</li>
+                            <li><i class="rp-li fa fa-check-circle fa-2x"></i><b>FRIENDLY</b> lessons for all your requirements</li>                        
+                            <li><i class="rp-li fa fa-check-circle fa-2x"></i><b>ONE-to-ONE COACHING</b> with an <a href="https://thetutorsassociation.org.uk/" style="color:white" target="_blank">experienced maths tutor</a></li>
+                        </ul>                      
                     </div>
                 </section>
+                
                 <section>
                     <div class="fee_box">
-                        <h3>SPECIAL ANNOUNCEMENT:</h3>
-                        <h3>CONTINUING MATHS AND PHYSICS EDUCATION AT KS3, GCSE AND A-LEVEL
-                            DURING THE COVID-19 EPIDEMIC</h3>
-
+                        <h3>ABOUT ME</h3>
                         <p>
-                            In response to the extraordinary requirements which have been placed on all households due to the Covid-19 epidemic, I am pleased to introduce an online maths and physics tuition service which will be operational by the week beginning Monday 23 March for anyone who is interested.
+                            Hi, my name is Robert Pooley, and I am a maths tutor working from my home in Devon, England.
                         </p>
-
                         <p>
-                            If you would like to find out more about this new online service then you will find details by clicking on the tabs above. If you are interested, then the next step would be to arrange a free online consultation to get a feel for this method of tuition and to discuss your requirements in more detail.
+                            I am now very pleased to be able to offer all GCSE and A-level maths students an exciting new ONLINE coaching service to supplement their school and sixth-form studies.
                         </p>
-
+                       <p> 
+                            I have a wide range of work experience, mainly in software development, acoustics research, and as a craftsman potter, but with brief spells in government administration and farming. I have been tutoring maths and physics for more than ten years. 
+                        </p>
                         <p>
-                            The arrival of Covid-19 in our midst has imposed new and strange contingencies on our lives. My normal lessons, conducted at my home are therefore suspended, for the time being.
+                            I have a masters in maths from Cambridge University, and I am a member of the <a href="https://thetutorsassociation.org.uk/" style="color:white" target="_blank">Tutor's Association</a>
                         </p>
                     </div>
                 </section>
-            </div>
+         </div> 
+  
+         <div>            
+                <section>
+                    <div class="fee_box">
+                        <h3>ONE-TO-ONE TUITION IN THE COMFORT OF YOUR HOME</h3>
+                        <p>
+                        Online tutorials take place on a shared state-of-the-art virtual whiteboard with audio and video link-up to recreate all the benefits of traditional face-to-face coaching. There will be about 50 minutes online teaching within an hourly booking.
+                        </p>
+                        <p>
+                        Just book an hourly slot for your convenience (see below) and meet me on the whiteboard at the time agreed.
+                        </p>
+                        <p>
+                        Full help setting up for first time users makes getting started easy.
+                        </p>
+                        <p>
+                        I offer a free, <em>half-hour</em>, no-strings introductory setting-up session when we can meet on a whiteboard and discuss your requirements in more detail.
+                        </p>
+                         <p>
+                        The unique advantages of one-to-one tuition mean that the style and content of each and every tutorial can be tailored to your requirements. For instance, I find that many students want a full course of study, whilst others have particular topics which they want to pursue. Many, of course, want immediate help preparing for exams. 
+                        </p>                        
+                           
+                    </div>
+                </section> 
+                
+                <section>
+                    <div class="fee_box">
+                    <h3>SUBJECTS AND SYLLABUSSES</h3>
+                    <p>
+                    Maths, Further Maths, and Physics
+                    </p>
+                    <p>
+                    KS3, GCSE, IGCSE, A-level</p>
+                    <p> Edexcel, AQA, OCR</p>
+                    <p>PS I would be very happy to consider any ad-hoc requests for such things as University entrance coaching or for special syllabuses which I have not mentioned.</p>
+
+                    </div>                   
+                </section> 
+
+                <section>
+                    <div class="fee_box">
+                    <h3>PAYMENT</h3>
+                    <p>My charge from June 2020 is £25 per hourly booking</p>
+                    <p> Payment by Paypal or Credit Card at anytime by clicking the PayPal button below</p>
+                    <p>Payment by BACS can be arranged</p>
+                    <p>I will send you monthly statements of account by email to help you easily keep track of your payments</p>
+                    
+                    <!--<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+                    <div id="paypal-button-container"></div>
+                    <!--<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+                    
+                    </div>                                   
+                </section> 
+                
+                <section>
+                    <div class="fee_box">
+                    <h3>BOOKINGS</h3>
+                    <p>I am available for online tutorials on all weekdays and on Saturday mornings</p>
+                    <p>My regular morning slots are 9-10, 10-11, and 11-12 GMT</p>
+                    <p>My regular afternoon slots are 3-4. 4-5, and 5-6 GMT</p>
+                    </div>                   
+                </section> 
+         </div> 
+   
+         <div>            
+                
+               <section>
+                    <ul class="fee_box">
+                    <h3>EQUIPMENT YOU WILL REQUIRE</h3>
+                    <p>One of the following:</p>
+                    <li><i class="rp-li fa fa-check-square fa-2x"></i>
+                    PC with webcam plus drawing tablet 
+                    </li>
+                    <li><i class="rp-li fa fa-check-square fa-2x"></i>
+                    PC with webcam
+                    </li>
+                    <li><i class="rp-li fa fa-check fa-2x"></i> 
+                    Laptop
+                    </li>
+                    <li><i class="rp-li fa fa-check fa-2x"></i> 
+                    Tablet
+                    </li>
+                           
+                   <p>Please Note:  it is possible to conduct online lessons via an iphone, but this is not recommended</p>                                                                     
+                    </ul>                   
+                </section>
+                
+                <section>
+                    <div class="fee_box">
+                    <h3>INTERNET CONNECTION</h3>
+                    <p>There can, on occasion, be an internet connection problem which means that either a lesson cannot commence, or that a lesson is terminated part-way through.</p>
+                    <p>If there is a connection problem which means that a lesson cannot commence, then this will not be charged.</p>
+                    <p>If connection problems mean that a lesson has to be abandoned having got underway, then the lesson will be charged, but I will make up any lost time at a later time/date.</p>
+                    </div>                   
+                </section> 
+                <section>
+                    <div class="fee_box">
+                    <h3>MISSED OR CANCELLED APPOINTMENTS</h3>
+                    <p>From time-to-time, students may have to cancel lessons, and I do not charge a cancellation fee.</p>
+                    <p>Nevertheless, repeated or persistent cancellation is a charge on my time, as it needlessly denies others the use of the time slot. I would therefore seek to resolve a situation like this with the student and their parent/guardian as soon as a problem is identified.</p>
+                   
+                    </div>                   
+                </section> 
+        </div>
+   
+        <div>
+                               
+                <section>
+                	  <h3>ENQUIRIES</h3>
+                    <div class="fee_box">
+                        <p>
+                            <em>
+                                If you have any enquiries, then you can contact me either 
+                                by telephone or by e-mail and I would be delighted to take your call. 
+                                My contact details are set out below.
+                            </em>
+                        </p>
+                        <ul style="margin-top:45px">
+                            <li><i class="rp-li fa fa-phone-square fa-2x"></i>07312 105397 (Mobile) <br> 01404 822333 (Home)</li>
+                            <li><i class="rp-li fa fa-envelope-square fa-2x"></i>robertpooleymaths@gmail.com</li>
+                            <li><i class="rp-li fa fa-home fa-2x"></i>Daisymount House,<br>Exeter Road,<br>Ottery St Mary,<br>Devon.<br>EX11 1LE</li>
+                        </ul>
+                    </div>
+                </section>                    
+    
+        </div>
         </div>
 
         <footer>
