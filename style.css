@@ -43,12 +43,7 @@ nav{
     }
 
     html, body{
-        background-color: #dd2d44; 
-        background-image: linear-gradient(to bottom right, #dd2d44, #b92883);
-        background: -moz-linear-gradient(to bottom right,  #dd2d44,  #b92883);
-        background: -webkit-gradient(linear, left top, right bottom, from(#dd2d44), to(#b92883));
-        background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-color: #d12b5a;
     }
 }
 
