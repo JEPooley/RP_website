@@ -207,11 +207,9 @@
                     <p> Payment by Paypal or Credit Card at anytime by clicking the PayPal button below</p>
                     <p>Payment by BACS can be arranged</p>
                     <p>I will send you monthly statements of account by email to help you easily keep track of your payments</p>
-                    
-                    <!--<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+                    <!--<img id="pay_pal_icon" src="Images/PayPal.jpg" alt="Photo: PayPal Icon">-->
                     <div id="paypal-button-container"></div>
-                    <!--<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
-                    
+
                     </div>                                   
                 </section> 
                 
