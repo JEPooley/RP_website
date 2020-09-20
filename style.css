@@ -15,12 +15,10 @@ html, body {
 }
 
 nav{
-    background-color: rgba(255, 255, 255, 0.1);
     width:100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
     top:0;
     z-index: 10;
 }
@@ -187,7 +185,7 @@ button:focus {outline:0;}
 .panel section{
     width:90vw;
     padding-inline-start: 0;
-    padding-bottom:80px;
+    padding-bottom:10px;
 }
 
 .panel ul{
@@ -217,9 +215,9 @@ button:focus {outline:0;}
 
 .fee_box{
     margin: 20px 0;
-    border: 3px solid white;
+    border: 2px solid white;
     border-radius: 10px;
-    box-shadow: 0 0 12px -3px rgb(0, 0, 0);
+    box-shadow: 0 0 40px -2px rgb(0, 0, 0, 0.05); 
     padding: 20px;
 }
 
@@ -236,8 +234,7 @@ button:focus {outline:0;}
 
 @media only screen and (min-width: 900px) {
     .panel{
-        flex-direction: row;
-        align-items: flex-start;
+        align-items: center;
         padding-top: 2vh;
     }
 
@@ -254,8 +251,6 @@ button:focus {outline:0;}
 
     .panel section{
         width:45vw;
-        margin-right: 12vw;
-        margin-left: 40px;
         padding-bottom: 0;
     }
 
@@ -289,10 +284,7 @@ button:focus {outline:0;}
 
 #robert_photo{
     height: 200px;
-    margin-top: 60px;
-    border-radius: 50%;
-    border: 3px solid white;
-    box-shadow: 0 0 40px -5px rgb(0, 0, 0); 
+    box-shadow: 0 0 40px -2px rgb(0, 0, 0, 0.05); 
 }
 
 @media only screen and (min-width: 600px) {
@@ -309,10 +301,6 @@ button:focus {outline:0;}
         margin-top: 100px;
     }
 
-}
-
-#robert_photo:hover{
-    box-shadow: 0 0 40px -3px rgb(0, 0, 0); 
 }
 
 .rp-li {
