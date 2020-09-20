@@ -4,8 +4,8 @@ html, body {
     min-height: calc(var(--vh, 1vh) * 100);
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #d12b5a;
-    color: white;
+    color: rgb(32, 32, 32);
+    background-color: #dae7e7;
 }
 
 #texture{
@@ -41,21 +41,10 @@ nav{
         position: static;
         z-index: 10;
     }
-
-    html, body{
-        background-color: #d12b5a;
-    }
-}
-
-.hamburger{
-    padding: 20px;
-    color: white;
-    order: 3;
 }
 
 nav li a{
     text-decoration: none;
-    color: white;
     padding-bottom: 10px;
     font-size: 13px;
 }
@@ -90,7 +79,7 @@ nav li{
 .nav_logo{
     display: flex;
     text-decoration: none;
-    color:white;
+    color:#304A4A;
     align-items: center;
     padding: 20px;
 }
@@ -100,7 +89,6 @@ nav li{
 }
 
 .logo_text{
-    display: none;
     margin-left: 8px;
     font-size: 22px;
     font-family: 'Montserrat';
@@ -122,39 +110,6 @@ nav li{
 
 .logo_text > div{
     font-weight: bold;
-}
-
-.hamburger_menu{
-    margin-top: 90px;
-    width: 100%;
-    position: fixed;
-    display: none;
-    flex-direction: column;
-    z-index: 11;
-    box-shadow: 0 0 12px -3px rgb(0, 0, 0);
-}
-
-.hamburger_menu a{
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-    text-decoration: none;
-    font-family: 'Montserrat';
-    font-weight: bold;
-    color: #dd2d44;
-    padding: 20px 0;
-}
-
-.hamburger_menu a:hover{
-    background-color: #dd2d44;
-    color: white;
-}
-
-.hamburger{
-    font-size: 20pt;
-    background: none;
-    border: none;
-    cursor: pointer;
 }
 
 button:focus {outline:0;}
@@ -185,7 +140,6 @@ button:focus {outline:0;}
 
 .panel ul{
     list-style-type: none;
-    padding-inline-start: 0;
 }
 
 .panel p{
@@ -199,6 +153,7 @@ button:focus {outline:0;}
     font-weight: bold;
     margin-top:25px;
     text-align: center;
+    color: #304A4A;
 }
 
 .fee_box h3{
@@ -206,14 +161,22 @@ button:focus {outline:0;}
     font-family: 'Montserrat';
     margin-top: 5px;
     font-weight: bold;
+    color: #304A4A;
 }
 
 .fee_box{
     margin: 20px 0;
-    border: 2px solid white;
-    border-radius: 10px;
-    box-shadow: 0 0 40px -2px rgb(0, 0, 0, 0.05); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); 
     padding: 20px;
+    background-color: white;
+}
+
+.fee_box a{
+    color: rgb(32, 32, 32);;
+}
+
+.fee_box i {
+    color: #304A4A;
 }
 
 .fee_box_picture{
@@ -254,7 +217,6 @@ button:focus {outline:0;}
         padding-inline-start: 30px;
         margin-bottom: 30px;
         margin-top:17.867px;
-        text-align: left;
     }
 
     .hamburger_menu a{
@@ -293,7 +255,7 @@ button:focus {outline:0;}
 
     #robert_photo{
         height: 300px;
-        margin-top: 100px;
+        margin-top: 30px;
     }
 
 }
@@ -314,9 +276,6 @@ footer{
 footer div{
     margin: 0 20px 20px 20px;
     padding: 8px;
-    border: 3px solid white;
-    border-radius: 10px;
-    box-shadow: 0 0 12px -3px rgb(0, 0, 0);
 }
 
 footer p{
