@@ -5,7 +5,7 @@ html, body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: #34344A;
-    background-color: #A51C30;
+    background-color: #34344A;
 }
 
 #texture{
@@ -176,7 +176,7 @@ button:focus {outline:0;}
 }
 
 .fee_box a{
-    color: rgb(32, 32, 32);;
+    color: #34344A;
 }
 
 .fee_box i {
