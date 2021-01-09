@@ -4,8 +4,8 @@ html, body {
     min-height: calc(var(--vh, 1vh) * 100);
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(32, 32, 32);
-    background-color: #dae7e7;
+    color: #34344A;
+    background-color: #A51C30;
 }
 
 #texture{
@@ -79,7 +79,7 @@ nav li{
 .nav_logo{
     display: flex;
     text-decoration: none;
-    color:#304A4A;
+    color:whitesmoke;
     align-items: center;
     padding: 20px;
 }
@@ -153,7 +153,7 @@ button:focus {outline:0;}
     font-weight: bold;
     margin-top:25px;
     text-align: center;
-    color: #304A4A;
+    color: #f5f5f5;
 }
 
 .fee_box h3{
@@ -161,14 +161,14 @@ button:focus {outline:0;}
     font-family: 'Montserrat';
     margin-top: 5px;
     font-weight: bold;
-    color: #304A4A;
+    color: #34344A;
 }
 
 .fee_box{
     margin: 20px 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); 
     padding: 20px;
-    background-color: white;
+    background-color: whitesmoke;
 }
 
 .fee_box a{
@@ -176,7 +176,7 @@ button:focus {outline:0;}
 }
 
 .fee_box i {
-    color: #304A4A;
+    color: #34344A;
 }
 
 .fee_box_picture{
@@ -225,7 +225,7 @@ button:focus {outline:0;}
 
     .fee_box, .fee_box_picture{
         width: 45vw;
-        padding: 20px;
+        padding: 40px;
     }
 
     .panel .fee_box p{
